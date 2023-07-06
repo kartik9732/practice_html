@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <from action="/index.js">
+            <h1>write your name</h1>
+            <input type="text" placeholder="username">
+            <br>
+            <h1>write your correct password</h1>
+            <input type="password" placeholder="password">
+            <br>
+            <!-- lable -->
+            <h1>choose your class</h1>
+            <label for="101">
+            <input type="radio" value="class xi" name="class" id="101">class xi
+            </label>
+            <br>
+            <label for="102">
+            <input type="radio" value="class xii" name="class" id="102">class xii
+                </label>
+                <br>
+                <h1>choose your subject</h1>
+                <label for="math">
+                    <input type="checkbox" name="subject" value="math" id="101"> Math
+                    <!-- here id used for backend purpose not for front end purpose -->
+
+                </label>
+                <label for="che">
+                    <input type="checkbox" name="subject" value="che" id="102"> chemistry
+                    <!-- here id used for backend purpose not for front end purpose -->
+
+                </label>
+                <label for="phy">
+                    <input type="checkbox" name="subject" value="phy" id="103"> physicks
+                    <!-- here id used for backend purpose not for front end purpose -->
+
+                </label>
+                <label for="boi">
+                    <input type="checkbox" name="subject" value="bio" id="104"> biology
+                    <!-- here id used for backend purpose not for front end purpose -->
+
+                </label>
+                <label for="comp">
+                    <input type="checkbox" name="subject" value="comp" id="105"> computer
+                    <!-- here id used for backend purpose not for front end purpose -->
+
+                </label>
+                <h1>choose your own city</h1>
+                <select  name="city">
+                    <option value="kolkata">kolkata</option>
+                    <option value="chennai">chennai</option>
+
+                    <option value="mumbai">mumbai</option>
+
+                    <option value="hydrabad">hydrabad</option>
+
+                    <option value="bengaluru">bengaluru</option>
+
+                    <option value="delhi">delhi</option>
+
+                </select>
+                <br><br>
+                <textarea name="feedback" id="101" placeholder="please give your valuable feedback" >feedback
+                    <!-- we can also add row col height for big area -->
+
+                </textarea>
+                <br>
+                <input type="submit" value="submit">
+        </from>
+    </main>
+    <footer></footer>
+</body>
+</html>
